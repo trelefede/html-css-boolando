@@ -19,7 +19,49 @@ img {
 
 /*** utilities ***/
 
-
+.flex {
+    display: flex;
+}
 
 
 /*** content ***/
+
+/* header */
+.contenitore-header {
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ff6901;
+    color: white;
+    font-size: 1rem;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 5px;
+}
+
+/* main */
+section {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 30px 120px;
+}
+
+.card {
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+
+}
+
+.card p {
+    flex-direction: column;
+}
