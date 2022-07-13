@@ -28,7 +28,7 @@ img {
 
 /* header */
 .contenitore-header {
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
     background-color: #ff6901;
     color: white;
@@ -37,6 +37,10 @@ img {
 
 .logo {
     flex-grow: 1;
+}
+
+.logo img {
+    width: 130px;
 }
 
 ul {
@@ -64,4 +68,8 @@ section {
 
 .card p {
     flex-direction: column;
+}
+
+.card:hover .heart {
+    color: red;
 }
