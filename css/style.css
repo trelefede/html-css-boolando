@@ -33,11 +33,10 @@ img {
     background-color: #ff6901;
     color: white;
     font-size: 1rem;
+    align-items: center;
 }
 
-.logo {
-    flex-grow: 1;
-}
+.logo {}
 
 .logo img {
     width: 130px;
@@ -68,6 +67,7 @@ section {
 
 .card p {
     flex-direction: column;
+    line-height: 14px;
 }
 
 .heart {
@@ -91,7 +91,7 @@ section {
 .dettaglio {
     position: absolute;
     top: 70%;
-    right: 52%;
+    right: 56%;
     color: white;
     background-color: green;
     padding: 3px 5px;
@@ -101,4 +101,51 @@ section {
 
 .card:hover .heart {
     color: red;
+}
+
+#marca {
+    font-size: 0.7rem;
+    color: #7f7f7f;
+}
+
+#modello {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#prezzo {
+    font-size: 0.7rem;
+    color: red;
+}
+
+#prezzo-precedente {
+    font-size: 0.7rem;
+    color: #7f7f7f;
+    text-decoration: line-through;
+}
+
+
+/* footer */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    justify-content: space-between;
+    padding: 30px 129px;
+    font-size: 1rem;
+}
+
+footer div {
+    line-height: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+.social-links p {
+    font-size: 0.9rem;
+    font-weight: lighter;
 }
