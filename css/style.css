@@ -100,8 +100,14 @@ section {
     color: red;
 }
 
+.hover-img {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-.card:hover #hidden-image {
+.card:hover .hover-img {
     visibility: visible;
 }
 
