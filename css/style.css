@@ -47,6 +47,15 @@ li {
     padding: 0px 5px;
 }
 
+.icon-utente {
+    width: 194px;
+    justify-content: flex-end;
+}
+
+i {
+    padding: 0px 4px;
+}
+
 /* main */
 section {
     flex-wrap: wrap;
